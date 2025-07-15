@@ -1,6 +1,5 @@
 const reverseString = function (word) {
-  word.map();
-  console.log(word);
+  return word.split("").reverse().join("");
 };
 
 // Do not edit below this line
