@@ -1,5 +1,7 @@
 const getTheTitles = function (array) {
-  return array.map((book) => book.title);
+  return array.map(function (book) {
+    return book.title;
+  });
 };
 
 module.exports = getTheTitles;

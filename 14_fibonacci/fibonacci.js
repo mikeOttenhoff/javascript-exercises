@@ -11,8 +11,12 @@ const sequence = function (n) {
 };
 sequence(25);
 
-let fibonaci = function (number) {
-  return sequenceTotal.at(number);
+let fibonacci = function (number) {
+  if (number >= 0) {
+    return sequenceTotal.at(number);
+  } else {
+    return "OOPS";
+  }
 };
 
 // Do not edit below this line
